@@ -1,0 +1,72 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Manrope", sans-serif;
+}
+.hero {
+  background-image: url("https://images5.alphacoders.com/708/708276.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 615px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h2 {
+  font-size: 85px;
+  font-family: "Manrope", sans-serif;
+  font-weight: 800;
+  color: aliceblue;
+}
+.features {
+  background-color: #d5922f;
+  height: 550px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+}
+
+.feature-box {
+  width: 330px;
+  height: 330px;
+  background-color: #d9d9d9;
+  border-radius: 50%;
+}
+.profile {
+  /* background-color: aquamarine; */
+  margin: 0;
+  padding: 6rem;
+  margin-bottom: 2rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+p {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 0.4rem;
+}
+.profile-card {
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+  border-bottom: 2rem solid #2b0f0f;
+
+  width: 672px;
+
+  height: 314px;
+  background-color: #d9d9d9;
+}
+.profile-image {
+  width: 162px;
+  height: 176px;
+  background-color: #2b0f0f;
+  margin-top: 4rem;
+}
+.profile-details-box {
+  margin-top: 4rem;
+}
